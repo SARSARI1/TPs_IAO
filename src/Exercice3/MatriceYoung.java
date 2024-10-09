@@ -1,6 +1,7 @@
+package Exercice3;
+
 import java.util.ArrayList;
 
-import static java.lang.Integer.MAX_VALUE;
 /*Un tableau de Young (ou tableau de Young-Ferrers) est une disposition d'entiers dans un tableau de cases,
  où les lignes et les colonnes sont ordonnées de manière croissante.
 Plus formellement, un tableau de Young remplit ces deux conditions :

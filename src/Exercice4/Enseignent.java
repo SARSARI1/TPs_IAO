@@ -1,12 +1,14 @@
-public class Etudiant {
+package Exercice4;
+
+public class Enseignent {
     private String nom;
     private String prenom;
-    private Integer numero;
+    private String Grade;
 
-    public Etudiant(String nom, String prenom, Integer numero) {
+    public Enseignent(String nom, String prenom, String grade) {
         this.nom = nom;
         this.prenom = prenom;
-        this.numero = numero;
+        Grade = grade;
     }
 
     public String getNom() {
@@ -17,7 +19,9 @@ public class Etudiant {
         return prenom;
     }
 
-    public Integer getNumero() {
-        return numero;
+    public String getGrade() {
+        return Grade;
     }
+
+
 }

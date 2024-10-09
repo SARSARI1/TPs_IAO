@@ -1,3 +1,5 @@
+package Exercice1;
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
@@ -46,7 +48,7 @@ public class Facture {
     public void saveFacture() {
         try {
             // create a FileWriter object with the file name
-            String file = "Facture".concat(String.valueOf(this.id));
+            String file = "Exercice1.Facture".concat(String.valueOf(this.id));
             FileWriter writer = new FileWriter(file);
             writer.write(this.id);
             // write the string to the file

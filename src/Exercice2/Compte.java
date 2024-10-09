@@ -1,3 +1,5 @@
+package Exercice2;
+
 import java.util.ArrayList;
 
 public class Compte {

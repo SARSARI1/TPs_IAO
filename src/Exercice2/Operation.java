@@ -1,3 +1,5 @@
+package Exercice2;
+
 public class Operation {
     private double montant;
     private TypeOperation typeOperation;
@@ -21,7 +23,7 @@ public class Operation {
 
     @Override
     public String toString() {
-        return "Operation{" +
+        return "Exercice2.Operation{" +
                 "montant=" + montant +
                 ", typeOperation=" + typeOperation +
                 '}';

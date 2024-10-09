@@ -1,3 +1,5 @@
+package Exercice1_Corr.model;
+
 public class Produit {
     private String libele;
     private double prix;
@@ -23,7 +25,7 @@ public class Produit {
 
     @Override
     public String toString() {
-        return "Produit{" +
+        return "Exercice1_Corr.model.Produit{" +
                 "libele='" + libele + '\'' +
                 ", prix=" + prix +
                 '}';

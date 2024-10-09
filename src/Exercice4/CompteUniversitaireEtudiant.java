@@ -1,3 +1,5 @@
+package Exercice4;
+
 public class CompteUniversitaireEtudiant {
     private Etudiant etudiant;
     private String login;
