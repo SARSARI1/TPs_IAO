@@ -38,7 +38,7 @@ public class Facture {
     public double getTotal(){
         double total = 0;
         for (Map.Entry mapentry : this.produits.entrySet()) {
-            total+= ((Produit)mapentry.getKey()).getPrix() * ((Double)mapentry.getValue());
+            total+= ((Produit)mapentry.getKey()).getPrix() * ((Integer)mapentry.getValue()).doubleValue();
         }
         return total;
     }

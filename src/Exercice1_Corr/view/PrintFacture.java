@@ -11,7 +11,7 @@ public class PrintFacture  implements IFactureImprimeur {
     public void imprimer(Facture facture){
         double prix;
         for (Map.Entry mapentry : facture.getProduits().entrySet()) {
-            prix = ((Produit)mapentry.getKey()).getPrix() * ((Double)mapentry.getValue());
+            prix = ((Produit)mapentry.getKey()).getPrix() * ((Integer)mapentry.getValue()).doubleValue();
             System.out.println(mapentry.getKey() + "\t" + mapentry.getValue() + " : " +
                     prix );
         }
