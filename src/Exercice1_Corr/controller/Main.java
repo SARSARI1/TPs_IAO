@@ -1,7 +1,5 @@
-package Exercice1_Corr;
+package Exercice1_Corr.controller;
 
-import Exercice1_Corr.controller.IFactureSauvegarde;
-import Exercice1_Corr.controller.SaveFacture;
 import Exercice1_Corr.model.Facture;
 import Exercice1_Corr.model.Produit;
 import Exercice1_Corr.view.IFactureImprimeur;
