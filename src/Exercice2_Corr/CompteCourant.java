@@ -17,12 +17,7 @@ public class CompteCourant extends Compte implements ICompte {
             setMontant(getMontant() + operation.getMontant());
             return true;
         } else { // Credit
-            if (this.getMontant() >= operation.getMontant()) {
-                this.getOperations().add(operation);
-                setMontant(getMontant() - operation.getMontant());
-                return true;
-            }
-            return false;
+
         }
     }
 }
